@@ -1,3 +1,5 @@
+
+/* global style start*/
 body{
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -7,20 +9,37 @@ body{
 h1{
     font-size: 80px;
 }
+
+h2{
+   font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
 p{
     font-size: 20px;
     font-weight: 600;
     color: rgb(97, 97, 97);
     padding-bottom: 20px;
 }
+.text-center{
+    text-align: center;
+}
 
 .color{
     color:#fa132a;
 }
 
+/* global style end*/
+
+
+/*Section 01, 02*/
 .sec1{
-    background-color: #f1f1f1f1;
-    padding-bottom: 75px;
+    background-image: url(img/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
 }
 .flexiable{
     display: flex;
@@ -32,7 +51,7 @@ p{
 }
 
 .half-width img{
-    width: 70%;
+    width: 80%;
     padding-left: 10%;
     padding-top: 5%;
     
@@ -47,4 +66,69 @@ p{
     font-weight: 800;
     font-size: 22px;
     border-radius: 5px;
+}
+
+/*Section 03*/
+.sec3{
+    padding-top: 75px;
+    padding-bottom: 130px;
+    background-color: #f1f1f1;
+}
+.recipe{
+    box-shadow: 10px 10px 40px gray;
+    width: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 15px;
+}
+
+.recipe img{
+    width: 100%;
+}
+
+
+/*Section 04*/
+.sec4{
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-image: url(img/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec4 h2{
+    color: white;
+}
+.sec4 h3{
+    color: white;
+}
+
+.sec4 p{
+    color: white;
+}
+
+.first-column{
+   text-align: right;
+   width: 45%;
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+
+/*Section 05*/
+.sec5{
+    padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
 }
