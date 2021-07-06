@@ -3,3 +3,48 @@ body{
     margin: 0;
     padding: 0;
 }
+
+h1{
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(97, 97, 97);
+    padding-bottom: 20px;
+}
+
+.color{
+    color:#fa132a;
+}
+
+.sec1{
+    background-color: #f1f1f1f1;
+    padding-bottom: 75px;
+}
+.flexiable{
+    display: flex;
+}
+
+.half-width{
+    width: 45%;
+    padding: 50px 50px;
+}
+
+.half-width img{
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 5%;
+    
+}
+
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#fa132a, rgb(75, 75, 75));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+    border-radius: 5px;
+}
